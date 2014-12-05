@@ -6,7 +6,8 @@ module.exports = function(grunt) {
           dataSource: 'db',
           app: './server/server',
           config: './server/model-config',
-          method: 'autoupdate'
+          method: 'autoupdate',
+          exclude: ['User']
         }
       }
     }
